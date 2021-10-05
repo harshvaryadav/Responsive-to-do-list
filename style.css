@@ -1,0 +1,86 @@
+body{
+    background-color:black;
+    box-sizing:border-box;
+}
+#div{
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   margin:auto;
+}
+@media only screen and (min-width:760px)
+{
+       #div{ 
+             width:55%;  
+       }
+
+}
+
+h1{ 
+  color:rgb(113, 248, 23);
+  font-family: "Trirong", serif;
+  text-align:center;
+}
+span{
+  color:rgb(56, 241, 195);
+  font-family: "Trirong", serif;
+}
+#b{
+  width:95%;
+  height:30px;
+  border-radius:40px;  
+  outline:none;
+  background-color:white;
+  font-size:20px;
+  text-align:center;
+}
+@media only screen and (max-width:760px)
+{
+       #b{
+            font-size:15px;
+       }
+       h1{
+            font-weight:lighter;
+            color:blue;
+       }
+       #div{
+            width:60%;
+       }
+       #s{
+            color:blueviolet; 
+       }
+}
+#d{
+     display:block;  
+     width:40%; 
+     text-align:center;
+     margin:auto; 
+}
+.container{
+   height:40px;
+   width:100%;
+   margin:auto;
+   position:relative;
+   border-bottom:3px solid white;
+   box-sizing:border-box;
+   margin-top:40px;
+}
+#add{
+   color:rgb(68, 236, 68);
+   cursor:pointer;
+   font-size:28px;
+}
+.span{
+   color:red;
+   position:absolute;
+   font-size:15px;
+   cursor:pointer;
+   right:0px;
+   top:15px;
+}
+.p{
+   color:white;
+   position:absolute;
+   font-size:15px;
+   left:0px;
+}
